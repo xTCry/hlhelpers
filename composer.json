@@ -1,20 +1,34 @@
 {
-    "name": "darkfriend/hlhelpers",
+    "name": "xtt/hlhelpers",
     "type": "library",
     "description": "Helper for Highloadblock Bitrix",
-    "keywords": ["dev","helper","darkfriend","highloadblock","highload","bitrix","1c-bitrix","development"],
-    "homepage": "https://github.com/darkfriend/hlhelpers",
+    "keywords": [
+        "dev",
+        "helper",
+        "xtt",
+        "darkfriend",
+        "highloadblock",
+        "highload",
+        "bitrix",
+        "1c-bitrix",
+        "development"
+    ],
+    "homepage": "https://github.com/xtcry/hlhelpers",
     "authors": [
         {
             "name": "darkfriend",
             "email": "hi@darkfriend.ru"
+        },
+        {
+            "name": "xTCry",
+            "homepage": "https://github.com/xTCry"
         }
     ],
     "require": {
-        "php":">=5.4"
+        "php": ">=5.4"
     },
-    "autoload":{
-        "classmap":[
+    "autoload": {
+        "classmap": [
             "./HLHelpers.php"
         ]
     }

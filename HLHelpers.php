@@ -4,15 +4,13 @@
  * Набор методов для работы с highloadblock Bitrix
  * User: darkfriend <hi@darkfriend.ru>
  * Date: 25.04.2017
- * @version 1.0.5
+ * @version 1.0.6
  */
 
-namespace Darkfriend;
+namespace XTT;
 
-use \Bitrix\Highloadblock as HL,
-    \Bitrix\Main\Entity,
-    \Bitrix\Main\Loader;
-use Bitrix\Main\Application;
+use \Bitrix\Highloadblock as HL;
+use \Bitrix\Main\{Application, Entity, Loader};
 
 class HLHelpers
 {
